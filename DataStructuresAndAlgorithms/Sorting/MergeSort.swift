@@ -1,4 +1,11 @@
-import UIKit
+//
+//  MergeSort.swift
+//  DataStructuresAndAlgorithms
+//
+//  Created by Manveer Singh on 28/07/25.
+//
+
+import Foundation
 
 func mergeSort(nums: inout [Int], low: Int, high: Int) {
     // if low is less than high else nothing
@@ -58,7 +65,3 @@ func merge(nums: inout [Int], low: Int, mid: Int, high: Int) {
         k += 1
     }
 }
-
-var nums = [5,2,1,4,3,9,6,7]
-
-mergeSort(nums: &nums, low: 0, high: nums.count-1)
